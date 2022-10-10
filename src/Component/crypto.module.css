@@ -1,0 +1,59 @@
+/* 
+dark gray : rgb(11 29 51)
+mediem gray : rgb(11 29 51)
+gray : rgb(34 60 91)
+light gray: rgb(224, 225, 230)
+*/
+.coin_rank {
+    text-decoration: underline;
+}
+.coin_image {
+  width: 10%;
+  height: 50%;
+}
+.coin_symbol {
+    font-size: .7rem;
+}
+.coin_price {
+    color: rgb(171, 222, 171);
+}
+.coin_high_24 {
+    color: rgb(208, 234, 170);
+}
+.coin_low_24 {
+    color: rgb(231, 172, 172);
+}
+
+.redpricechange{
+    color: red;
+}
+.greenpricechange{
+    color: green;
+}
+
+/* table rows style */
+.coin_id{
+  width: 5%;
+}
+.coin_info{
+  width: 25%;
+  column-gap: 5%;
+}
+.coin_info h3{
+  font-size: .9rem;
+}
+.coin_price{
+  width: 13%;
+}
+.coin_24h{
+  width: 10%;
+}
+.coin_mkt{
+  width: 20%;
+}
+.coin_high{
+  width: 12.5%;
+}
+.coin_low{
+  width: 12.5%;
+}
